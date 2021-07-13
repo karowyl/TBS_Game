@@ -1,0 +1,203 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Archer">
+    <Position X="11.25" Y="2.75" Width="1.5" />
+    <InheritanceLine Type="Ranged" ManuallyRouted="true" FixedFromPoint="true">
+      <Path>
+        <Point X="10.25" Y="2.312" />
+        <Point X="11.582" Y="2.326" />
+        <Point X="12.002" Y="2.326" />
+        <Point X="12.002" Y="3.102" />
+        <Point X="11.25" Y="3.102" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAA=</HashCode>
+      <FileName>Archer.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Army">
+    <Position X="0.5" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAABEAQAgAAAAAAAAAIAAAAAAAAAAAAAgABkAAAAAQA=</HashCode>
+      <FileName>Army.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Barracks">
+    <Position X="2.75" Y="12" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAEAA=</HashCode>
+      <FileName>Barracks.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Building">
+    <Position X="6.75" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAABAQAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAQAA=</HashCode>
+      <FileName>Building.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Cavalry">
+    <Position X="6" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAIAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Cavalry.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="City">
+    <Position X="2.5" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAABAAIAAAAAAAAAABAAAAAAABgAAAAIAA=</HashCode>
+      <FileName>City.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Crops_farm">
+    <Position X="12.5" Y="12.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAQAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Crops_farm.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Economy">
+    <Position X="6.75" Y="10" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAEAAAAAA=</HashCode>
+      <FileName>Economy.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Enemy">
+    <Position X="13" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Enemy.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Farm">
+    <Position X="11.25" Y="10" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAQAAgAAAAAAAgAAAAIAAAA=</HashCode>
+      <FileName>Farm.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Game">
+    <Position X="9.5" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAABEAEAAAAQAAAAAAAACAAAAAiAAgAJCAAAACAABEI=</HashCode>
+      <FileName>Game.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GameMenu">
+    <Position X="11.25" Y="8.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>GameMenu.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Map">
+    <Position X="11.25" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAEAAAABAAAAQQAAAAAAAAAABAAAAAABBoAgAAIAA=</HashCode>
+      <FileName>Map.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Market">
+    <Position X="6.75" Y="12" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAEAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Market.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Matchlock">
+    <Position X="11.25" Y="0.5" Width="1.5" />
+    <InheritanceLine Type="Ranged" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="10.25" Y="2.312" />
+        <Point X="12" Y="2.312" />
+        <Point X="12" Y="1.925" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AAAAABCAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Matchlock.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Mele">
+    <Position X="1.75" Y="1" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAQAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAE=</HashCode>
+      <FileName>Mele.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Military">
+    <Position X="2.75" Y="10" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAgAAQAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Military.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Pike">
+    <Position X="2.75" Y="3.75" Width="1.5" />
+    <InheritanceLine Type="Mele" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="2.5" Y="2.877" />
+        <Point X="2.5" Y="3.375" />
+        <Point X="3.438" Y="3.375" />
+        <Point X="3.438" Y="3.75" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AQAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Pike.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Player">
+    <Position X="13" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Player.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Ranged">
+    <Position X="8.75" Y="1" Width="1.5" />
+    <InheritanceLine Type="Unit" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="7" Y="2.125" />
+        <Point X="8.75" Y="2.125" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAIgAAACAAAAAAAAAAAAAAAAAAAACAAABAAAIA=</HashCode>
+      <FileName>Ranged.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Stables">
+    <Position X="10" Y="12.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAQAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Stables.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Sword">
+    <Position X="0.75" Y="3.75" Width="1.5" />
+    <InheritanceLine Type="Mele" ManuallyRouted="true" FixedToPoint="true">
+      <Path>
+        <Point X="2.5" Y="2.877" />
+        <Point X="2.5" Y="3.375" />
+        <Point X="1.5" Y="3.375" />
+        <Point X="1.5" Y="3.75" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAQAAAAAAAAAAAAAAQAAAAAAAAAAAAA=</HashCode>
+      <FileName>Sword.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Unit">
+    <Position X="5.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IAAAkAAAAAAACAAAZAAAAAAAEAAQAAAAAAAAAIAAAAE=</HashCode>
+      <FileName>Unit.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
